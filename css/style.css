@@ -360,7 +360,8 @@ td {
   .footer p {
     min-width: 300px;
     color: #252932;
-    padding: 1rem; }
+    padding: 1rem;
+    text-align: center; }
 
 .copyright {
   min-width: 300px;
