@@ -368,3 +368,8 @@ td {
   text-align: center;
   cursor: pointer;
   color: #252932; }
+
+.getPdf {
+  text-align: center;
+  color: #252932;
+  cursor: pointer; }
