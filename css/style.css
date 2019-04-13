@@ -266,6 +266,12 @@ td {
     display: block;
     width: 100%;
     height: 10px; }
+  .progres .progres-dark-half {
+    background-color: #ffffff;
+    float: right;
+    display: block;
+    width: 50%;
+    height: 10px; }
 
 .flex-cont {
   position: relative;
