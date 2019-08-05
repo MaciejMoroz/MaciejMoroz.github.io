@@ -77,12 +77,18 @@ ol {
   padding: 0;
   margin: 0; }
 
+ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+  padding-left: 1rem; }
+
 small {
   font-size: 75%; }
 
 a {
   color: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 700; }
 
 img {
   max-width: 100%; }
@@ -215,7 +221,7 @@ td {
 
 .img-box {
   height: 37.5rem; }
-  .img-box .img {
+  .img-box__img {
     background-image: url(../img/DSC08674.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,24 +230,24 @@ td {
     height: 100%;
     width: auto; }
     @media (min-width: 580px) {
-      .img-box .img {
+      .img-box__img {
         background-position: top center; } }
     @media (max-width: 1024px) {
-      .img-box .img {
+      .img-box__img {
         background-position: center center; } }
 
 .personalData {
   margin-left: -1rem;
   margin-right: -1rem;
   padding-bottom: 1rem; }
-  .personalData p {
+  .personalData__cont {
     padding-left: 2rem; }
 
 .skills {
   margin-left: -1rem;
   margin-right: -1rem;
   padding-bottom: 1rem; }
-  .skills p {
+  .skills__cont {
     margin: 0;
     padding-top: 0.5rem;
     margin-left: 2rem; }
@@ -254,24 +260,24 @@ td {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap; }
-  .progres span {
+  .progres__box {
     float: left;
     display: block;
     width: 100%;
     height: 10px;
     background-color: #ffffff; }
-  .progres .progres-dark {
-    background-color: #252932;
-    float: left;
-    display: block;
-    width: 100%;
-    height: 10px; }
-  .progres .progres-dark-half {
-    background-color: #ffffff;
-    float: right;
-    display: block;
-    width: 50%;
-    height: 10px; }
+    .progres__box--dark {
+      background-color: #252932;
+      float: left;
+      display: block;
+      width: 100%;
+      height: 10px; }
+    .progres__box--dark-half {
+      background-color: #ffffff;
+      float: right;
+      display: block;
+      width: 50%;
+      height: 10px; }
 
 .flex-cont {
   position: relative;
@@ -333,32 +339,19 @@ td {
 .exp {
   color: #252932;
   min-width: 300px; }
-  .exp h3 {
+  .exp__hdr {
     margin: 0;
     padding: 0.25rem 0.25rem 0.25rem 0px;
     font-weight: 700; }
 
-.edu h3 {
+.edu__hdr {
   margin: 0;
   padding: 0.25rem 0.25rem 0.25rem 0px;
   font-weight: 700; }
 
-.edu ul {
-  list-style-type: disc;
-  margin-left: 1rem;
-  padding-left: 1rem; }
-
 .hobby {
   color: #252932;
   min-width: 300px; }
-  .hobby h3 {
-    margin: 0;
-    padding: 0.25rem 0.25rem;
-    font-weight: 700; }
-  .hobby ul {
-    list-style-type: disc;
-    margin-left: 1rem;
-    padding-left: 1rem; }
 
 .footer {
   min-width: 300px;
