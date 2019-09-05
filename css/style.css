@@ -367,7 +367,8 @@ td {
   margin-top: 2rem;
   text-align: center;
   cursor: pointer;
-  color: #252932; }
+  color: #252932;
+  font-size: 0.62rem; }
 
 .getPdf {
   text-align: center;
