@@ -159,6 +159,10 @@ button {
     .hide-desk {
       display: unset; } }
 
+.leftSideBox {
+   background-color: #373d48;
+}
+
 .leftSide {
   background-color: #373d48;
   min-width: 300px;
